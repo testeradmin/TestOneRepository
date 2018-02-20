@@ -35,7 +35,7 @@ import Page_Registration.Window_Elements;
 public class FirstMaven {
 	
 	
-	// This project is on GitHub now
+	// This project is on GitHub now.
 	
 	
 	WebDriver driver;
