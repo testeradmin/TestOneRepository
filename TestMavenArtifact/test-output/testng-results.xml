@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26151" started-at="2018-02-20T09:32:39Z" finished-at="2018-02-20T09:33:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26151" started-at="2018-02-20T09:32:39Z" finished-at="2018-02-20T09:33:05Z">
+      <class name="MavenPkg1.FirstMaven">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:MavenPkg1.FirstMaven@42dafa95]" name="launchBrowser" is-config="true" duration-ms="23343" started-at="2018-02-20T15:02:39Z" finished-at="2018-02-20T15:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="reportTest()[pri:0, instance:MavenPkg1.FirstMaven@42dafa95]" name="reportTest" duration-ms="214" started-at="2018-02-20T15:03:02Z" finished-at="2018-02-20T15:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+        <test-method status="PASS" signature="failReport(org.testng.ITestResult)[pri:0, instance:MavenPkg1.FirstMaven@42dafa95]" name="failReport" is-config="true" duration-ms="2571" started-at="2018-02-20T15:03:02Z" finished-at="2018-02-20T15:03:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reportTest status=SUCCESS method=FirstMaven.reportTest()[pri:0, instance:MavenPkg1.FirstMaven@42dafa95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failReport -->
+      </class> <!-- MavenPkg1.FirstMaven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
